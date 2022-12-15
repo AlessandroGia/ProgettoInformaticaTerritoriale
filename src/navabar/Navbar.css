@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #06283D;
+    overflow: hidden;
+
+}
+
+.menu-navbar a, #sep{
+    height: 100%;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.25vw 3px;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+nav {
+    padding-right: 10px;
+}
+
+
+.titolo {
+    height: 100%;
+    font-size: 1.5vw;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    padding: 1vw 0;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.menu-navbar {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+}
