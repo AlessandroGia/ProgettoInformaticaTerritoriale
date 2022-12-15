@@ -1,5 +1,5 @@
 import './Navbar.css';
-
+import arrow from '../img/up-arrow.svg'
 function Navbar() {
     return (
         <header>
@@ -9,13 +9,31 @@ function Navbar() {
                 </div>
                 <div class="menu-navbar">
                     <nav> 
-                        <a href="#">Mappa Provincia</a>
+                        <div class="dropdown-provincia">
+                            <img id="arrow" src={arrow} alt="Dropdown"/>
+                            <span id="mappe">Mappa Provincia</span>
+                            <div class="dropdown-provincia-content">
+                                <a id="dropdown-provincia-content-a" href="#">Mappa Impianto</a>
+                                <a id="dropdown-provincia-content-a" href="#">Mappa Con Ortofoto</a>
+                            </div>
+                        </div>
                         <span id="sep">|</span>
-                        <a href="#">Mappa Ilva</a>
+                        <div class="dropdown-ilva">
+                            <img  id="arrow" src={arrow} alt="Dropdown"/>
+                            <span id="mappe">Mappa Ilva</span>
+                            <div class="dropdown-ilva-content">
+                                <a id="dropdown-ilva-content-a" href="#">Mappa Impianto</a>
+                                <a id="dropdown-ilva-content-a" href="#">Mappa Con Ortofoto</a>
+                            </div>
+                        </div>
                         <span id="sep">|</span>
-                        <a href="#">Analisi Territoriale</a>
+                        <div >
+                            <a id="links_a" href="#">Analisi Territoriale</a>
+                        </div>
                         <span id="sep">|</span>
-                        <a href="#">Storia</a>   
+                        <div>
+                            <a id="links_a" href="#">Storia</a>   
+                        </div> 
                     </nav>
                 </div>
             </div>
