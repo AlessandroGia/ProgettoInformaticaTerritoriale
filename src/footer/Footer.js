@@ -5,7 +5,6 @@ function Footer() {
     return (
         <footer>
             <div class="logo-title">
-
                 <img src={logo}></img>
                 <div class="title">
                     <span> Progetto Informatica Territoriale</span>

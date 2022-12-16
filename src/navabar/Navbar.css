@@ -44,6 +44,7 @@
 }
 
 .dropdown-provincia-content #dropdown-provincia-content-a {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 0.9vw;
     color: black;
     padding: 1vw 3.5vw;
@@ -78,6 +79,7 @@
 }
 
 .dropdown-ilva-content #dropdown-ilva-content-a {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 0.9vw;
     color: black;
     padding: 1vw 3.5vw;

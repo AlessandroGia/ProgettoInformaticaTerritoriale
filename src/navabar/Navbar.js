@@ -1,6 +1,17 @@
 import './Navbar.css';
-import arrow from '../img/up-arrow.svg'
+import arrow from '../img/up-arrow.svg';
+import {Routes, Route, useNavigate} from 'react-router-dom';
+
 function Navbar() {
+    const navigate = useNavigate();
+
+    const navigateToStoria = () => {
+      navigate('/storia');
+    };
+  
+    const navigateToAnalisiTerritoriale = () => {
+      navigate('/analisi-territoriale');
+    };
     return (
         <header>
             <div class="navbar">
@@ -28,11 +39,11 @@ function Navbar() {
                         </div>
                         <span id="sep">|</span>
                         <div >
-                            <a id="links_a" href="#">Analisi Territoriale</a>
+                            <a id="links_a" href="" onClick={navigateToAnalisiTerritoriale}>Analisi Territoriale</a>
                         </div>
                         <span id="sep">|</span>
                         <div>
-                            <a id="links_a" href="#">Storia</a>   
+                            <a id="links_a" href="" onClick={navigateToStoria}>Storia</a>   
                         </div> 
                     </nav>
                 </div>

@@ -1,0 +1,61 @@
+.storia {
+    width: 100vw;
+}
+
+.storia-ilva {
+    float: left;
+    width: 34vw;
+    text-align: justify;
+    margin: 2vw 3vw;
+    margin-left: 10vw !important;
+    background-color: #F3f3f3;
+    border-radius: 20px 20px;
+}
+
+.storia-quartiere {
+    float: left;
+    width: 34vw;
+    text-align: justify;
+    margin: 2vw 3vw;
+    margin-right: 10vw !important;
+    background-color: #F3f3f3;
+    border-radius: 20px 20px;
+}
+
+#storia-content {
+    height: 100%;
+}
+
+#storia-titolo {
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#storia-content-content {
+    font-size: 1vw;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foto-altoforni {
+    background-color: blue;
+    height: 13vw;
+    margin-top: 20px;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+}
+
+.foto-zona-industriale {
+    background-color: blue;
+    height: 13vw;
+    margin-top: 20px;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+}
